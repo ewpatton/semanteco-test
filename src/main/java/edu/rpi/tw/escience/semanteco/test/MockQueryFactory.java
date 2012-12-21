@@ -1,8 +1,8 @@
-package edu.rpi.tw.escience.waterquality.test;
+package edu.rpi.tw.escience.semanteco.test;
 
-import edu.rpi.tw.escience.waterquality.QueryFactory;
-import edu.rpi.tw.escience.waterquality.query.Query;
-import edu.rpi.tw.escience.waterquality.query.Query.Type;
+import edu.rpi.tw.escience.semanteco.QueryFactory;
+import edu.rpi.tw.escience.semanteco.query.Query;
+import edu.rpi.tw.escience.semanteco.query.Query.Type;
 
 /**
  * MockQueryFactory provides a base implementation of

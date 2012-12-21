@@ -1,4 +1,4 @@
-package edu.rpi.tw.escience.waterquality.test;
+package edu.rpi.tw.escience.semanteco.test;
 
 import java.util.Map;
 
@@ -12,7 +12,7 @@ import org.json.JSONObject;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.rdf.model.Model;
 
-import edu.rpi.tw.escience.waterquality.Request;
+import edu.rpi.tw.escience.semanteco.Request;
 
 /**
  * TestRequest provides a mechanism for a unit test

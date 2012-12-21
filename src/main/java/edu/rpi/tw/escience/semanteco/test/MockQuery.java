@@ -1,20 +1,20 @@
-package edu.rpi.tw.escience.waterquality.test;
+package edu.rpi.tw.escience.semanteco.test;
 
 import java.util.List;
 import java.util.Set;
 
 import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
 
-import edu.rpi.tw.escience.waterquality.query.BlankNode;
-import edu.rpi.tw.escience.waterquality.query.GraphComponent;
-import edu.rpi.tw.escience.waterquality.query.GraphComponentCollection;
-import edu.rpi.tw.escience.waterquality.query.GraphPattern;
-import edu.rpi.tw.escience.waterquality.query.NamedGraphComponent;
-import edu.rpi.tw.escience.waterquality.query.OptionalComponent;
-import edu.rpi.tw.escience.waterquality.query.Query;
-import edu.rpi.tw.escience.waterquality.query.QueryResource;
-import edu.rpi.tw.escience.waterquality.query.UnionComponent;
-import edu.rpi.tw.escience.waterquality.query.Variable;
+import edu.rpi.tw.escience.semanteco.query.BlankNode;
+import edu.rpi.tw.escience.semanteco.query.GraphComponent;
+import edu.rpi.tw.escience.semanteco.query.GraphComponentCollection;
+import edu.rpi.tw.escience.semanteco.query.GraphPattern;
+import edu.rpi.tw.escience.semanteco.query.NamedGraphComponent;
+import edu.rpi.tw.escience.semanteco.query.OptionalComponent;
+import edu.rpi.tw.escience.semanteco.query.Query;
+import edu.rpi.tw.escience.semanteco.query.QueryResource;
+import edu.rpi.tw.escience.semanteco.query.UnionComponent;
+import edu.rpi.tw.escience.semanteco.query.Variable;
 
 /**
  * MockQuery provides a base interface for unit tests

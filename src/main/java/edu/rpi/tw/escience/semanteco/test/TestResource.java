@@ -1,20 +1,19 @@
-package edu.rpi.tw.escience.waterquality.test;
+package edu.rpi.tw.escience.semanteco.test;
 
 import java.io.IOException;
 import java.io.InputStream;
 
-import edu.rpi.tw.escience.waterquality.Module;
-import edu.rpi.tw.escience.waterquality.ModuleConfiguration;
-import edu.rpi.tw.escience.waterquality.Resource;
+import edu.rpi.tw.escience.semanteco.Module;
+import edu.rpi.tw.escience.semanteco.Resource;
 
 /**
- * TestStringResource is used to provide
- * a string-based resource constructed via
- * the {@link ModuleConfiguration#generateStringResource(String)} method.
+ * TestResource provides a base implementation of Resource
+ * that, unlike the MockResource, does not throw exceptions
+ * if an operation should return correctly.
  * @author ewpatton
  *
  */
-public class TestStringResource extends MockResource implements Resource {
+public class TestResource extends MockResource implements Resource {
 
 	@Override
 	public String getPath() {

@@ -1,10 +1,10 @@
-package edu.rpi.tw.escience.waterquality.test;
+package edu.rpi.tw.escience.semanteco.test;
 
 import java.io.IOException;
 import java.io.InputStream;
 
-import edu.rpi.tw.escience.waterquality.Module;
-import edu.rpi.tw.escience.waterquality.Resource;
+import edu.rpi.tw.escience.semanteco.Module;
+import edu.rpi.tw.escience.semanteco.Resource;
 
 /**
  * MockResource provides a base implementation of

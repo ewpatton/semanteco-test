@@ -1,4 +1,4 @@
-package edu.rpi.tw.escience.waterquality.test;
+package edu.rpi.tw.escience.semanteco.test;
 
 import java.io.File;
 import java.net.URI;
@@ -8,12 +8,12 @@ import junit.framework.Assert;
 
 import org.apache.log4j.Logger;
 
-import edu.rpi.tw.escience.waterquality.Domain;
-import edu.rpi.tw.escience.waterquality.ModuleConfiguration;
-import edu.rpi.tw.escience.waterquality.QueryExecutor;
-import edu.rpi.tw.escience.waterquality.QueryFactory;
-import edu.rpi.tw.escience.waterquality.Request;
-import edu.rpi.tw.escience.waterquality.Resource;
+import edu.rpi.tw.escience.semanteco.Domain;
+import edu.rpi.tw.escience.semanteco.ModuleConfiguration;
+import edu.rpi.tw.escience.semanteco.QueryExecutor;
+import edu.rpi.tw.escience.semanteco.QueryFactory;
+import edu.rpi.tw.escience.semanteco.Request;
+import edu.rpi.tw.escience.semanteco.Resource;
 
 /**
  * Provides a TestModuleConfiguration that provides basic functionality

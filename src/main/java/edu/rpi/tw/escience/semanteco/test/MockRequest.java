@@ -1,11 +1,11 @@
-package edu.rpi.tw.escience.waterquality.test;
+package edu.rpi.tw.escience.semanteco.test;
 
 import org.apache.log4j.Logger;
 
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.rdf.model.Model;
 
-import edu.rpi.tw.escience.waterquality.Request;
+import edu.rpi.tw.escience.semanteco.Request;
 
 /**
  * MockRequest provides a base implementation of

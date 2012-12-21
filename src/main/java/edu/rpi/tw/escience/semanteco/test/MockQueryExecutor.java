@@ -1,9 +1,9 @@
-package edu.rpi.tw.escience.waterquality.test;
+package edu.rpi.tw.escience.semanteco.test;
 
 import com.hp.hpl.jena.rdf.model.Model;
 
-import edu.rpi.tw.escience.waterquality.QueryExecutor;
-import edu.rpi.tw.escience.waterquality.query.Query;
+import edu.rpi.tw.escience.semanteco.QueryExecutor;
+import edu.rpi.tw.escience.semanteco.query.Query;
 
 /**
  * MockQueryExecutor provides a base implementation

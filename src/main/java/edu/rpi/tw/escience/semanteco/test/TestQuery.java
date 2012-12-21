@@ -1,7 +1,7 @@
-package edu.rpi.tw.escience.waterquality.test;
+package edu.rpi.tw.escience.semanteco.test;
 
-import edu.rpi.tw.escience.waterquality.query.Query;
-import edu.rpi.tw.escience.waterquality.query.impl.QueryImpl;
+import edu.rpi.tw.escience.semanteco.query.Query;
+import edu.rpi.tw.escience.semanteco.query.impl.QueryImpl;
 
 /**
  * TestQuery can be used by unit tests to
