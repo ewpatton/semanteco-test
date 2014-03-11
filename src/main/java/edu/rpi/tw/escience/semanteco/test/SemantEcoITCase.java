@@ -5,8 +5,11 @@ import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collection;
+import java.util.GregorianCalendar;
 import java.util.List;
 
 import org.junit.After;
@@ -65,6 +68,19 @@ public class SemantEcoITCase {
 
     public static String getPathForTestResource( String file ) {
         return testResources + file;
+    }
+
+    public static String getLastModifiedDate( String pathname ) {
+        File file = new File(pathname);
+        if ( file.exists() ) {
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+            Calendar c = GregorianCalendar.getInstance();
+            c.setTimeInMillis( file.lastModified() );
+            return sdf.format(c.getTime());
+        } else {
+            // unix epoch - 1
+            return "1969-12-31";
+        }
     }
 
     @Before
