@@ -70,7 +70,7 @@ public class SemantEcoITCase {
     @Before
     public void setUp() throws InstantiationException, IllegalAccessException {
         this.driver = driverClass.newInstance();
-        driver.manage().window().setSize(new Dimension(1024, 768));
+        driver.manage().window().setSize(new Dimension(1366, 768));
     }
 
     @After
